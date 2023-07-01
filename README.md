@@ -334,3 +334,6 @@ Reach me for commissioned programs or collab on:
 <p align="center">
   <a href="https://t.me/zztaKdeR" target="_blank"><img alt="home" src="https://img.shields.io/badge/Telegram-gray?logo=telegram&logoColor=blue"></a>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=redkatz/socialmediahackingtoolkit&type=Date)](https://star-history.com/#redkatz/socialmediahackingtoolkit&Date)
