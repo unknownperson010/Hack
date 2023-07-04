@@ -23,7 +23,8 @@ Social Media Hacking Toolkit
   <img src="https://img.shields.io/badge/Written in-python | php-141449" alt=""/>
   <img src="https://img.shields.io/badge/Author-RedKatz-141449" alt=""/>
  <h6><p align="center" style="color:yellow">
-    <i>please read at least the section regarding trustability</i></a>
+    <i>please read at least the section regarding <a href="https://github.com/RedKatz/SocialMediaHackingToolkit#Trustability">trustability</a>
+</i></a>
 </p></h6>
 
 ---
