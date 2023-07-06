@@ -1,4 +1,3 @@
 @echo off
-cd cmd
-python main.py
+python cmd/main.py
 
