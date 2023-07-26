@@ -144,7 +144,7 @@ def insta_bruteforce(username, wordlist, vpn):
           spam_bool = 0
           console.print("\n!! README !!", justify="center", style="#d3c906 bold")
           console.print(spam_message_br, justify="center", style="#fc0004 bold")
-          console.print("for any request$ contact on telegram @username\n\n", justify="center", style="#0befe0 italic")
+          console.print("for any request$ contact on telegram @zztaKdeR \n\n", justify="center", style="#0befe0 italic")
           stop_message = input("permanently stop this message [y/n] ==> ")
           if stop_message == "y":
             os.remove("cmd/spam_message.check")
