@@ -44,7 +44,7 @@ The <b>SocialMediaHackingToolkit</b> on GitHub is for <i>educational purposes</i
 | Debian      |     X      |           |          
 | Kali        |     X      |           |          
 | Windows 7   |           |    X       |          
-| Windows 10+ |     X      |           |          
+| Windows 11 |     X      |           |          
 | Termux |     X      |           |          
 
 </div>
