@@ -144,7 +144,7 @@ def insta_bruteforce(username, wordlist, vpn):
           spam_bool = 0
           console.print("\n!! README !!", justify="center", style="#d3c906 bold")
           console.print(spam_message_br, justify="center", style="#fc0004 bold")
-          console.print("for any request$ contact on telegram @zztaKdeR \n\n", justify="center", style="#0befe0 italic")
+          console.print("for any request$ contact on telegram @redkatzShopBot \n\n", justify="center", style="#0befe0 italic")
           stop_message = input("permanently stop this message [y/n] ==> ")
           if stop_message == "y":
             os.remove("cmd/spam_message.check")
@@ -354,10 +354,10 @@ Phishing Tool Under Development! We are currently working on implementing the fo
 If you'd like to contribute, please feel free to create a pull request. Thank you for your patience and understanding!
 '''
 spam_phishing = '''
-For customized phishing programs targeting specific websites, please contact us on Telegram at @username.
+For customized phishing programs targeting specific websites, please contact us on Telegram at @redkatzShopBot.
 We provide tailored phishing solutions.
 
-https://t.me/zztaKdeR
+https://t.me/redkatzShopBot
 '''
 
 facebook_ju  = '''
