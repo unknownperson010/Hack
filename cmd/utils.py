@@ -139,16 +139,7 @@ def insta_bruteforce(username, wordlist, vpn):
   rs = requests.session()
   for line in wl_lines:
       password = line
-      if c_spam > 100 and spam_bool == 1:
-        if os.path.exists("cmd/spam_message.check") == True:
-          spam_bool = 0
-          console.print("\n!! README !!", justify="center", style="#d3c906 bold")
-          console.print(spam_message_br, justify="center", style="#fc0004 bold")
-          console.print("for any request$ contact on telegram @redkatzShopBot \n\n", justify="center", style="#0befe0 italic")
-          stop_message = input("permanently stop this message [y/n] ==> ")
-          if stop_message == "y":
-            os.remove("cmd/spam_message.check")
-      elif insta_pass(username, line) == True:
+      if insta_pass(username, line) == True:
         os.system("clear")
         console.print(ascii_art, justify="center", style="#B0DAFF bold")
         console.print(password, justify="center", style="#13f41e bold")
@@ -205,76 +196,6 @@ report_headers = {
 nu = [1, 2, 3, 4]
 
 spam_message = '''
-you seem to have been trying for a long time to report an account....
-
-How does the mass report attack work?
-
-===================================
-
-"Accept": "*/*",
-"Accept-Encoding": "gzip, deflate",
-"Accept-Language": "tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3",
-"Cache-Control": "no-cache",
-"Connection": "keep-alive",
-"Content-Type": "application/x-www-form-urlencoded",
-"DNT": "1",
-"Host": "help.instagram.com",
-"Origin": "help.instagram.com",
-"Pragma": "no-cache",
-"Referer": "https://help.instagram.com/contact/497253480400030",
-"TE": "Trailers",
-
-===================================
-
-[more info here --> https://github.com/RedKatz/SocialMediaHackingToolkit#readme]
-
-These headers contain information about the request and can be used to communicate
-specific instructions or preferences to the server.
-
-this is not the most efficient way to knock down an account, but it is
-the method that allows you to report an account for free, it is more
-efficient to have a list of thousands of account ready to report an account all at the same time.
-
-do you want a custom program? or do you want to run any
-program you want in a private server that changes ip every time?
-'''
-spam_message_br = '''
-you seem to have been trying for a long time to bruteforce an account....
-
-How does the mass bruteforce attack work?
-
-===================================
-
-'accept': '*/*',
-'accept-encoding': 'gzip, deflate, br',
-'accept-language': 'ar,en-US;q=0.9,en;q=0.8',
-'content-length': '275',
-'content-type': 'application/x-www-form-urlencoded',
-'cookie': 'csrftoken=DqBQgbH1p7xEAaettRA0nmApvVJTi1mR; ig_did=C3F0FA00-E82D-41C4-99E9-19345C41EEF2; mid=X8DW0gALAAEmlgpqxmIc4sSTEXE3; ig_nrcb=1',
-'origin': 'https://www.instagram.com',
-'referer': 'https://www.instagram.com/',
-'sec-fetch-dest': 'empty',
-'sec-fetch-mode': 'cors',
-'sec-fetch-site': 'same-origin',
-'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Mobile Safari/537.36',
-'x-csrftoken': 'DqBQgbH1p7xEAaettRA0nmApvVJTi1mR',
-'x-ig-app-id': '936619743392459',
-'x-ig-www-claim': '0',
-'x-instagram-ajax': 'bc3d5af829ea',
-'x-requested-with': 'XMLHttpRequest'
-
-===================================
-
-[more info here --> https://github.com/RedKatz/SocialMediaHackingToolkit#readme]
-
-These headers contain information about the request and can be used to communicate
-specific instructions or preferences to the server.
-
-this is one of the most efficient way to bruteforce an account, you can
-also perform brutefforce attacks with 2fa cracking.
-
-do you want a custom program? or do you want to run any
-program you want in a private server that changes ip every time?
 '''
 
 def get_amount():
@@ -295,15 +216,6 @@ def insta_massreport(username, vpn, amount, spam_bool):
      while c_while <= amount:
           if c_while < 0:
             c_while = 0
-          elif c_while > 100 and spam_bool == 1:
-            if os.path.exists("cmd/spam_message.check") == True:
-              spam_bool = 0
-              console.print("\n!! README !!", justify="center", style="#d3c906 bold")
-              console.print(spam_message, justify="center", style="#fc0004 bold")
-              console.print("for any request$ contact on telegram @username\n\n", justify="center", style="#0befe0 italic")
-              stop_message = input("permanently stop this message [y/n] ==> ")
-              if stop_message == "y":
-                os.remove("cmd/spam_message.check")
           if vpn == True:
                change_ip()
       
@@ -350,14 +262,11 @@ def insta_massreport(username, vpn, amount, spam_bool):
           c_while = c_while+1
 
 phishing_help = '''
-Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/RedKatz/exaPhisher. 
+Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/SamueleAmato/exaPhisher. 
 If you'd like to contribute, please feel free to create a pull request. Thank you for your patience and understanding!
 '''
 spam_phishing = '''
-For customized phishing programs targeting specific websites, please contact us on Telegram at @redkatzShopBot.
-We provide tailored phishing solutions.
 
-https://t.me/redkatzShopBot
 '''
 
 facebook_ju  = '''
@@ -376,7 +285,7 @@ If you'd like to contribute, please feel free to create a pull request. Thank yo
 
 
 facebook_ju_phishing  = '''
-Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/RedKatz/exaPhisher. 
+Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/SamueleAmato/exaPhisher. 
 If you'd like to contribute, please feel free to create a pull request. Thank you for your patience and understanding!
 '''
 
