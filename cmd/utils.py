@@ -262,7 +262,7 @@ def insta_massreport(username, vpn, amount, spam_bool):
           c_while = c_while+1
 
 phishing_help = '''
-Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/SamueleAmato/exaPhisher. 
+Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/NullPulse/exaPhisher. 
 If you'd like to contribute, please feel free to create a pull request. Thank you for your patience and understanding!
 '''
 spam_phishing = '''
@@ -285,7 +285,7 @@ If you'd like to contribute, please feel free to create a pull request. Thank yo
 
 
 facebook_ju_phishing  = '''
-Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/SamueleAmato/exaPhisher. 
+Phishing Tool Under Development! We are currently working on implementing the following phishing code: https://github.com/NullPulse/exaPhisher. 
 If you'd like to contribute, please feel free to create a pull request. Thank you for your patience and understanding!
 '''
 
